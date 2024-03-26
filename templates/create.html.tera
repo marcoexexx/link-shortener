@@ -1,0 +1,8 @@
+<form action="/create" method="post">
+  <input type="text" name="original" id="original" value="">
+  <button type="submit">Create</button>
+
+  {% if link %}
+    <p>done: <a target="_blank" href="/{{link}}">{{link}}</a></p>
+  {% endif %}
+</form>

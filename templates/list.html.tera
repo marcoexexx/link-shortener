@@ -1,0 +1,3 @@
+{% for link in links %}
+  <p>{{link}}</p>
+{% endfor %}
